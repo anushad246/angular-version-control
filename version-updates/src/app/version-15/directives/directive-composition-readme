@@ -6,3 +6,20 @@ behavior, or layout of DOM elements.
 
 2.use of directive composition API,
 The directive composition API in Angular is used to compose multiple behaviors and functionalities into a single component or directive, promoting modularity, reusability, and separation of concerns. It allows developers to combine different directives and their functionalities, making it easier to manage and apply complex logic in a more organized way.
+
+3.@HostListener
+@HostListener allows you to bind to DOM events, such as click, mouseover, keydown, etc., and trigger corresponding methods in your directive or component when these events occur.
+
+
+4.nativeElement
+nativeElement is a property of the ElementRef class, 
+and it returns the actual native DOM element that the ElementRef is wrapping.
+
+Type: It is of type HTMLElement (or a more specific type like HTMLDivElement,
+HTMLInputElement, etc., depending on the actual element).
+
+
+5.ElementRef
+ElementRef is a service in Angular that allows you to access the DOM element directly 
+from within your directive or component. It's a wrapper around a native DOM element, 
+which you can use to manipulate the element.
