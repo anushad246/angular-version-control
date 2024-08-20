@@ -1,16 +1,1 @@
-<mat-card class="p-5 m-5">
-    <!-- using composition API -->
-    <p appCustom>version-15 works!</p>
-    <!-- Combining Built-in and Custom Directives -->
-    <h2 *ngIf="!isFruit" appCustom>mango</h2>
-    <h2 *ngIf="isFruit">cat</h2>
-
-    <div>
-        <button appTooltip="This is a tooltip!">Hover over me</button>
-    </div>
-    <div>
-        <p appHighlight="lightblue">This text has a light blue background.</p>
-        <p appHighlight="lightgreen">This text has a light green background.</p>
-        <p appHighlight>This text has a yellow background (default).</p>
-    </div>
-</mat-card>
+<router-outlet></router-outlet>

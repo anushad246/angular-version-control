@@ -1,39 +1,28 @@
 export const menu = [
     {
-        displayName: 'Escritorio',
-        iconName: 'desktop_windows',
-        route: 'escritorio',
-    },
-    {
-        displayName: 'Entradas GADE',
-        iconName: 'ballot',
-        route: 'entradasGADE',
-    },
-    {
-        displayName: 'Expedientes',
-        iconName: 'description',
-        children: [
+        displayName: 'Version 15',
+        route: '',
+        children:[
             {
-                displayName: 'Mis Expedientes',
-                iconName: 'how_to_reg',
-                route: '/misexpedientes'
+                childDisplyName:"Directive Composition",
+                route:'directive-composition-api'
             },
             {
-                displayName: 'Todos',
-                iconName: 'waves',
-                route: '/todos'
+                childDisplyName:"Template Type Checking",
+                route:'template-typeChecking-component'
             }
         ]
     },
     {
-        displayName: 'Perfiles',
-        iconName: 'group',
-        children: [
-            {
-                displayName: 'Búsqueda Perfil',
-                iconName: 'search',
-                route: '/busquedaperfiles'
-            }
-        ]
+        displayName: 'Version 16',
+        route: 'v-16',
+    },
+    {
+        displayName: 'Version 17',
+        route: 'v-16',
+    },
+    {
+        displayName: 'Version 18',
+        route: 'v-16',
     }
 ];
